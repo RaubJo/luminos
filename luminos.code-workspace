@@ -1,0 +1,27 @@
+{
+	"folders": [{
+			"name": "luminos",
+			"path": "."
+		},
+		{
+			"name": "Container",
+			"path": "./Container",
+		},
+		{
+			"name": "Contracts",
+			"path": "./Contracts"
+		},
+		{
+			"name": "Support",
+			"path": "./Support"
+		},
+	],
+	"settings": {
+		"yaml.schemas": {
+			"https://taskfile.dev/schema.json": [
+				"tasks/*.yml",
+			]
+		},
+		"todo-tree.tree.scanMode": "open files",
+	}
+}
