@@ -3,22 +3,23 @@ name = "luminos"
 version = "0.1.1"
 edition = "2024"
 authors = ["joseph@raubstudios.com"]
-description = "A Laravel inspired crate"
+description = "A Laravel inspired collection of crates"
 repository = "https://github.com/RaubJo/luminos"
 license = "MIT"
 
 [lib]
 name = "luminos"
 crate-type = ["lib"]
-path = "src/Luminos/lib.rs"
+path = "src/luminos/lib.rs"
 
 [dependencies]
-luminos-support = { path = "Support", version = "0.1.0"}
-luminos-container = { path = "Container", version = "0.1.0"}
-luminos-contracts = { path = "Contracts", version = "0.1.0"}
+luminos-support = { path = "support", version = "0.1.0" }
+luminos-container = { path = "container", version = "0.1.0" }
+luminos-contracts = { path = "contracts", version = "0.1.0" }
+luminos-lyra = { path = "lyra", version = "0.1.0" }
 
 [workspace]
-members = ["Support", "Container", "Contracts"]
+members = ["support", "container", "contracts", "lyra", "rpc"]
 
 [workspace.lints.rust]
 unsafe_code = "forbid"

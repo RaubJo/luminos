@@ -5,16 +5,20 @@
 		},
 		{
 			"name": "Container",
-			"path": "./Container",
+			"path": "./container",
 		},
 		{
 			"name": "Contracts",
-			"path": "./Contracts"
+			"path": "./contracts"
 		},
 		{
 			"name": "Support",
-			"path": "./Support"
+			"path": "./support"
 		},
+		{
+			"name": "Lyra",
+			"path": "./lyra"
+		}
 	],
 	"settings": {
 		"yaml.schemas": {
