@@ -17,9 +17,21 @@ luminos-support = { path = "support", version = "0.1.0" }
 luminos-container = { path = "container", version = "0.1.0" }
 luminos-contracts = { path = "contracts", version = "0.1.0" }
 luminos-lyra = { path = "lyra", version = "0.1.0" }
+luminos-config = { path = "config", version = "0.1.0" }
 
 [workspace]
-members = ["support", "container", "contracts", "lyra", "rpc"]
+members = [
+    "support",
+    "container", 
+    "container_macros", 
+    "contracts", 
+    "lyra", 
+    "rpc", 
+    "config",
+    "config/examples/basic",
+    "container/examples/basic",
+    "container/examples/service_providers"
+]
 
 [workspace.lints.rust]
 unsafe_code = "forbid"

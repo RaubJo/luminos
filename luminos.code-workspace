@@ -3,6 +3,10 @@
 			"name": "luminos",
 			"path": "."
 		},
+        {
+			"name": "Config",
+			"path": "./config",
+		},
 		{
 			"name": "Container",
 			"path": "./container",

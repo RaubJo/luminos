@@ -11,3 +11,7 @@ pub mod container {
 pub mod contracts {
 	pub use luminos_contracts::*;
 }
+
+pub mod config { 
+    pub use luminos_config::*;
+}

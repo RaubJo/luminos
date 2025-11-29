@@ -3,6 +3,36 @@
 version = 4
 
 [[package]]
+name = "config-basic"
+version = "0.1.0"
+dependencies = [
+ "dotenv",
+ "luminos-config",
+]
+
+[[package]]
+name = "container-basic"
+version = "0.1.0"
+dependencies = [
+ "luminos-container",
+ "luminos-contracts",
+]
+
+[[package]]
+name = "container-service-providers"
+version = "0.1.0"
+dependencies = [
+ "luminos-container",
+ "luminos-contracts",
+]
+
+[[package]]
+name = "dotenv"
+version = "0.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
+
+[[package]]
 name = "itoa"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -19,6 +49,7 @@ dependencies = [
 name = "luminos"
 version = "0.1.1"
 dependencies = [
+ "luminos-config",
  "luminos-container",
  "luminos-contracts",
  "luminos-lyra",
@@ -26,15 +57,33 @@ dependencies = [
 ]
 
 [[package]]
-name = "luminos-container"
+name = "luminos-config"
 version = "0.1.0"
 dependencies = [
+ "dotenv",
+]
+
+[[package]]
+name = "luminos-container"
+version = "0.1.1"
+dependencies = [
+ "luminos-container-macros",
  "luminos-contracts",
 ]
 
 [[package]]
+name = "luminos-container-macros"
+version = "0.1.1"
+dependencies = [
+ "luminos-contracts",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "luminos-contracts"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "luminos-lyra"
