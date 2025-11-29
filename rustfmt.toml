@@ -1,0 +1,12 @@
+# indent_style = "Block"
+reorder_imports = true
+reorder_modules = true
+# blank_lines_lower_bound = 1
+# blank_lines_upper_bound = 1
+# brace_style = "AlwaysNextLine"
+# control_brace_style = "ClosingNextLine"
+edition = "2021"
+hard_tabs = false
+tab_spaces = 4
+# space_after_colon = true
+# spaces_around_ranges = true 

@@ -1,6 +1,7 @@
 .DS_Store
 target/
 container/
+container_macros/
 contracts/
 support/
 config/

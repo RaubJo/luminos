@@ -10,7 +10,7 @@ license = "MIT"
 [lib]
 name = "luminos"
 crate-type = ["lib"]
-path = "src/luminos/lib.rs"
+path = "src/lib.rs"
 
 [dependencies]
 luminos-support = { path = "support", version = "0.1.0" }
